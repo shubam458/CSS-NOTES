@@ -1,0 +1,192 @@
+/* (*) => is using for changing the whole page style */
+
+/* *{
+    background-color: blue;
+} */
+
+
+
+/* Syntax of Css /*
+
+selector{
+
+    MULTIPLE PROPERTIES WE HAVE
+
+
+    property : value;
+    property : value;
+    property : value;
+    property : value;
+    property : value;
+
+
+    
+
+}
+
+Selectors : Selectors are used to select the HTML elements
+
+it could bt <h1> <div> <p> tags 
+
+*/
+
+/* Then we have decalration blogs : {} opening and closing blogs */
+
+/* Declaration : value */
+
+
+/* Example  */
+
+/* p {
+
+    background-color: blue;
+
+    color: white;
+
+    font-size: 20px
+} */
+
+
+/* CSS selectors=>
+
+1. (DONE)=>Universal selector => Univeral selector is * what it is doing it can change 
+
+all the elements or something in our whole page so we can use this univeral
+selector *
+
+/*
+/* For example */
+
+* {
+
+    color: black;
+
+    /* All text color are red in the whole page */
+
+    background-color: aqua;
+
+    /* whole page background are acqa */
+}
+
+/* Univeral selector is basically used for whole web page changing */
+
+
+
+
+
+
+/* 2. Type selector => Type selector is that selector that can use for changing our tags styles what we want
+
+*/
+
+/* For example */
+
+h1 {
+
+    color: darkblue;
+
+    background-color: pink;
+}
+
+p {
+
+    border: 1px solid blue;
+
+    background-color: yellow;
+}
+
+/* It style that all elements what tag we give this for styling so it can style all same tag what we provided */
+
+
+
+/* 3. Class selector=> class selector is basically used to access the
+ particular element or style the particular class what we want to style in our
+ webpage
+
+*/
+
+/* For example */
+
+.Blog {
+
+    background-color: orange;
+
+    color: blueviolet;
+}
+
+/* Class selector is used for if we style same elements but this elements in different tags p, h1, h2, or we changing these elements 
+
+as same so we give a class and change all tags in one class*/
+
+
+/*
+ /* 4. Id selector => Id selector is basically used for trageting or styling  a particular
+ element and give unique id to call and style that element , if
+ we give same id in another element it can't work , so it 
+ always want unique id to use this selector for styling.
+ 
+ */
+
+/* Example of Id selector */
+
+#paragraph_heading {
+
+    background-color: wheat;
+
+    color: green;
+}
+
+/* Id selector is always for uniqueness styling in our webpage */
+
+.B1 {
+
+    color: brown;
+
+    background-color: blanchedalmond;
+
+
+}
+
+#b3 {
+
+    border: 2px solid green;
+}
+
+
+
+.b2 {
+
+    color: blueviolet;
+
+    background-color: yellow;
+}
+
+#b4 {
+
+    border: 2px solid black;
+}
+
+
+/* 5. Attribute =>*/
+
+/* Understand with example */
+
+
+[type="text"]{
+
+    background-color:pink;
+}
+
+[type="number"]{
+
+    background-color: blue;
+}
+
+
+
+
+
+/*
+
+   selector 6.
+    pseudo elements and pseudo class selectors */
