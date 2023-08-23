@@ -1,0 +1,105 @@
+#example_1{
+
+    /* Viewport used for responsiveness */
+
+    height: 50vh;
+    width: 50vw;
+
+
+
+    /* background-color: blue; */
+  border: 2px solid red;
+
+  /* border-radius: 50%; */
+
+}
+
+
+/*   Margin */
+
+/* Example of Margin */
+
+
+/* Default margin remove */
+
+    /* margin: 0px;
+    padding: 0px;
+     */
+
+     *{
+        margin: 0px;
+        padding: 0px;
+     
+     }
+
+
+
+#example_2{
+    
+    height: 400px;
+
+    width: 400px;
+  border: 2px solid red;
+
+  background-color: blue;
+
+  margin: 20px;
+  /* Margin is that it space four side 
+   outside the div
+  
+  */
+
+  /* Padding is that it space four side inside the fiv */
+
+  padding: 20px;
+
+}
+
+#btn_1{
+
+    margin: 20px;
+
+    padding: 10px;
+}
+
+/* Example of Box-sizing */
+
+#example_3{
+
+  
+   /* height: 400px; */
+
+   /* If i remove the height all text are fitted in our box */
+
+   
+  
+   width: 400px;
+  border: 2px solid red;
+
+  background-color: blue;
+
+  margin: 20px;
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  /* it says do whatever you want but do not
+  change the dimensions
+
+  /* Simple mean yeh div ka size humne jeetna diya hai utna hi
+  
+  rahega jitna mrji padding doh aagr text bahar jaa rha hai box
+
+  se then remove the height
+  
+  */
+  
+  */
+  
+
+}
+
+
+
+
+
