@@ -1,13 +1,13 @@
-#example_1{
+#example_1 {
 
-    /* Viewport used for responsiveness */
+  /* Viewport used for responsiveness */
 
-    height: 50vh;
-    width: 50vw;
+  height: 50vh;
+  width: 50vw;
 
 
 
-    /* background-color: blue; */
+  /* background-color: blue; */
   border: 2px solid red;
 
   /* border-radius: 50%; */
@@ -22,23 +22,23 @@
 
 /* Default margin remove */
 
-    /* margin: 0px;
+/* margin: 0px;
     padding: 0px;
      */
 
-     *{
-        margin: 0px;
-        padding: 0px;
-     
-     }
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
 
 
 
-#example_2{
-    
-    height: 400px;
+#example_2 {
 
-    width: 400px;
+  height: 400px;
+
+  width: 400px;
   border: 2px solid red;
 
   background-color: blue;
@@ -55,25 +55,25 @@
 
 }
 
-#btn_1{
+#btn_1 {
 
-    margin: 20px;
+  margin: 20px;
 
-    padding: 10px;
+  padding: 10px;
 }
 
 /* Example of Box-sizing */
 
-#example_3{
+#example_3 {
 
-  
-   /* height: 400px; */
 
-   /* If i remove the height all text are fitted in our box */
+  /* height: 400px; */
 
-   
-  
-   width: 400px;
+  /* If i remove the height all text are fitted in our box */
+
+
+
+  width: 400px;
   border: 2px solid red;
 
   background-color: blue;
@@ -93,13 +93,324 @@
   se then remove the height
   
   */
+
+}
+
+
+/* Psuedo class selectors  */
+
+
+
+#example_4 {
+
+
+  /* height: 400px; */
+
+  /* If i remove the height all text are fitted in our box */
+
+
+
+  width: 400px;
+  border: 2px solid red;
+
+  background-color: blue;
+
+  margin: 20px;
+  padding: 20px;
+
+  box-sizing: border-box;
+
+}
+
+/* hover the example_4 box */
+
+#example_4:hover {
+
+  background-color: pink;
+  color: green;
+  cursor: pointer;
+}
+
+
+/*  Active element */
+
+#btn {
+
+  color: black;
+  border: none;
+  border-radius: 20px;
+  background-color: pink;
+
+  padding: 20px;
+
+}
+
+#btn:active {
+
+  background-color: blue;
+
+  padding: 50px;
+
+  padding-bottom: 100px;
+
+  font-size: 50px;
+
+
+}
+
+
+/* > this means inside this or inside this */
+
+ul>li {
+
+  color: blue;
+
+  background-color: pink;
+}
+
+/* Another example of inside this */
+
+
+#n1>div>h1 {
+
+  background-color: blue;
+
+  color: green;
+
+}
+
+#n1>h2 {
+
+  background-color: green;
+
+  color: blue;
+}
+
+
+/*  Calling child example with names */
+
+ul>li:first-child {
+
+  color: green;
+
+  background-color: orange;
+}
+
+ul>li:last-child {
+
+  color: aqua;
+  background-color: brown;
+}
+
+ul>li:nth-child(3) {
+
+  color: white;
+  background-color: blue;
+}
+
+
+/* Display proprties */
+
+/* Block and inline elements */
+
+.box-1 {
+
+  height: 200px;
+  width: 200px;
+
+
+  color: red;
+
+  display: inline-block;
+
+  /* display: none; */
+
+  /* None case it can't show any display */
+
+  background-color: blue;
+
+  /* Advantage od block element  */
+
+  /* width
+    height
+
   
   */
+
+}
+
+.box-2 {
+
+  height: 200px;
+  width: 200px;
+  color: green;
+  display: block;
+  /* background-color: blueviolet; */
+
+  /* display: block; */
+
+
+  /* Advantage of inline element
   
+  They come in the same line
+  
+  */
+
+}
+
+/* We changing block or inline witht he help
+
+of display property*/
+
+
+
+/* Posititon properties */
+
+.static-eg {
+
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+
+  /* This is static element it can't change our postion 
+  if we change a position we use position relative
+
+  then change position on your own
+  */
+
+
+}
+
+
+.relative_eg {
+
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  position: relative;
+
+  top: 10px;
+
+  left: 30px;
+
+
+}
+
+
+/* Example of Fixed */
+
+.fixed {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+
+  /* Where we can fixed our div mean bottomo or right */
+  position: fixed;
+
+  right: 0px;
+  bottom: 0px;
+
+
+}
+
+
+/* Example of STICKY */
+
+.sticky-eg {
+
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  position: sticky;
+
+  top: 400px;
+
 
 }
 
 
 
+/* Example of Absolute */
+
+.big-box {
+
+  width: 400px;
+  height: 400px;
+
+  background-color: pink;
+
+  margin-top: 50px;
+
+  position: relative;
 
 
+
+
+}
+
+.absolute_eg {
+
+  height: 100px;
+
+  width: 100px;
+
+  background-color: violet;
+
+  position: absolute;
+
+  bottom: 0px;
+  /* right: 0px; */
+
+  left: 0px;
+
+  top: 0px;
+
+}
+
+/* Absolute working under the box but if parent element is relative */
+
+
+/* If i want my little box is shifted to bottom right 
+of the box do this
+*/
+
+
+.absolute_eg1 {
+
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+
+  position: absolute;
+
+  top: 0px;
+  right: 0px;
+
+}
+
+/* List styling properties in css */
+
+
+
+.list_type {
+
+  list-style-type: lower-alpha;
+  margin-left: 100px;
+
+  /* list syle position  its mean there is some gap in inside or outside
+using this style
+
+*/
+
+  /* list-style-position: inside; */
+
+  list-style-position: outside;
+
+  /* List type image */
+
+  list-style-image: url(https://course.acciojob.com/acciojob_logo.svg);
+
+}
