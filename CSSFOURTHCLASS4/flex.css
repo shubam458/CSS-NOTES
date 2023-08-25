@@ -1,0 +1,157 @@
+/* FLEX */
+
+
+/* Parent element */
+
+/* .main-body { */
+
+
+    /* We do all div in a same line */
+
+    /* display: flex; */
+
+    /* width */
+    /* width: 100vw; */
+
+    /* jutify-content */
+
+    /* justify-content: center; */
+
+    /* Now all the div are center */
+
+    /* If we want space between the div we use this */
+
+    /* justify-content: space-between; */
+    /* If we see the in the inspect session it responsive
+  
+  but we want if our div is shrink it goes to next line
+
+  
+  */
+
+    /* flex-wrap => It is simple that if our website is
+  run in smaller tab then it will automatically consume space
+proper space with a responsivenss
+
+  
+  */
+
+    /* flex-wrap: wrap; */
+
+    /*  Align-items If i center that all div we use */
+
+
+    /* align-items: center; */
+
+
+/* } */
+
+
+/* Exampple of flex direction */
+
+.main-body{
+
+    display: flex;
+
+    width: 100vw;
+
+    /* flex-direction 
+    
+    By default it shows as rows side=> we
+
+    change in col wise
+    
+    */
+
+
+    /* flex-direction: column;   */
+    
+    /* it shows col wise */
+
+    /* If i want it shows reverse div */
+
+    /* flex-direction: column-reverse; it will
+    
+    shows reverse mean item4,item3,item2,item1
+    */
+
+    /* Row reverse */
+
+    /* flex-direction: row-reverse;  it reverse
+    the row
+    
+    */
+
+    /* Flex-wrap */
+
+    flex-wrap: wrap;
+
+    /* wrap-reverse */
+
+    /* flex-wrap: wrap-reverse; */
+
+
+
+    /* Justify-content */
+
+
+    /* center */
+
+    /* justify-content: center; */
+
+    /* space-between */
+
+    /* justify-content: space-between; */
+
+    /* space-around */
+
+    /* justify-content: space-around; */
+
+    /* space-evenly */
+
+    justify-content: space-evenly;
+
+
+    
+
+}
+
+
+
+
+
+.item {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.item-1 {
+
+    background-color: red;
+
+    height: 300px;
+}
+
+.item-2 {
+
+    background-color: blue;
+
+    height: 300px;
+}
+
+.item-3 {
+
+    background-color: pink;
+    height: 300px;
+}
+
+.item-4 {
+
+    background-color: yellow;
+
+    height: 300px;
+}

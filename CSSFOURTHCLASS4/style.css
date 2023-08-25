@@ -1,0 +1,119 @@
+#div-1{
+
+    height: 20vh;
+    width: 100vw;
+    background-color: blue;
+
+    position: fixed;
+  
+}
+
+#div-2{
+
+    height: 50vh;
+    width: 20vw;
+    background-color: orange;
+
+    z-index: 1;
+}
+
+
+/* Table styling properties */
+
+table{
+
+    border: 2px solid red;
+
+    /* If we collapse the border mean attached 
+the border we use border collapse property
+
+*/
+
+    border-collapse: collapse;
+
+    /* Background color */
+
+    /* background-color: blue; */
+
+    color: orange;
+
+    font-size: 40px;
+
+    font-weight: bolder;
+
+  
+}
+
+td{
+    border: 4px solid blue;
+
+      /* If we give padding 
+      
+      Always padding work inside the div
+      
+      */
+
+      padding: 10px;
+
+      /* width */
+
+      width: 200px;
+
+      /* Height */
+
+      height: 60px;
+
+      /* Text-align
+      
+      If we want our table data is center or any position we use text-align 
+      
+      */
+
+      text-align: center;
+
+
+      /* vertical-align 
+      
+      If we want our data vertically up or down we use this
+
+      property
+      
+      */
+
+      /* vertical-align: top; */
+
+      /* vertical-align: baseline; */
+
+      /* vertical-align: bottom; */
+
+      /* vertical-align: middle; */
+
+
+  background-color: pink;
+
+    
+}
+
+.name{
+
+    background-color: salmon;
+
+    font-weight: 1000px;
+
+    color: black;
+
+    border-radius: 10px;
+}
+
+
+
+/* FLEX 
+
+In the next file
+
+*/
+
+
+
+
+
