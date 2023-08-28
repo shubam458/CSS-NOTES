@@ -1,0 +1,98 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+
+}
+
+.card {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+
+    /* we have a border-radius but the element overflow the element we use this property */
+
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+}
+
+/* The flex box showing 2 isto 3 ratio */
+
+.col-1 {
+
+    flex: 2;
+
+    /* border: 1px solid green; */
+
+}
+
+.col-1>img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.col-2 {
+
+    flex: 3;
+
+
+
+    /* border: 3px solid orange; */
+
+    padding: 20px;
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+
+}
+
+#card-heading {
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* card author and card date has same property */
+
+#card-author,
+#card-date {
+
+    font-size: 14px;
+    color: #777;
+    opacity: 0.5;
+
+}
+
+#card-content {
+
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+a {
+
+    text-decoration: none;
+}
