@@ -1,0 +1,176 @@
+/* firstly check previous css file */
+
+
+/* Navbar */
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navigation>ul>li {
+
+    box-sizing: border-box;
+}
+
+.navigation>ul {
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    padding: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+
+
+}
+
+.navigation>ul>li:hover {
+
+    color: red;
+    scale: 1.5;
+
+
+
+}
+
+.gallery {
+
+    display: grid;
+    width: 100vw;
+    /* This line means create a ]4 cols and each size
+    has 200px */
+    grid-template-columns: repeat(4, 200px);
+
+    /* gap */
+
+    gap: 10px;
+
+}
+
+.gallery>img {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+
+    position: relative;
+    top: 50px;
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+    background-color: #131a22;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d0dadd;
+
+
+
+
+
+
+}
+
+.sec {
+
+    margin: 50px;
+}
+
+.row-1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 50px;
+
+    justify-content: space-around;
+
+}
+
+.sec>p {
+
+    color: #918f95;
+}
+
+.sec>p:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.row-2 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.row-2>a {
+
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.row-3 {
+
+    font-size: 12px;
+    color: #DDD;
+    margin-bottom: 30px;
+
+}
+
+
+/* make responsive nav-bar */
+
+@media screen and (max-width:768px) {
+
+    .navigation>ul {
+
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+
+
+    }
+
+    /* for resposivness */
+
+
+    .gallery {
+
+
+        grid-template-columns: repeat(1, 200px);
+
+    }
+
+    .row-3 {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+}
+
+.navigation>ul>li {
+
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+
+    box-shadow: 0px 1px 1px white;
+}
